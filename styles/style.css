@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px 96px;
+    height: 293px;
+    padding: 0 50px
 }
 
 .header__links-list {
@@ -91,10 +92,16 @@
 
 .aligned-text_center {
     text-align: center;
+    position: relative;
+    top: 20px;
+    left:2px;
 }
 
 .aligned-text_right {
     text-align: right;
+    position: relative;
+    top: 40px;
+    left:0px;
 }
 
 .cover__description {
@@ -128,7 +135,7 @@
 }
 
 .lots {
-    padding: 180px 24px 100px;
+    padding: 180px 24px 110px;
 }
 
 .lots__heading {
